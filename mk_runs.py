@@ -13,7 +13,7 @@ project="2024-S1-MX-5"
 on = {}
 
 on["NGC1333_center_south"] = \
- [ 124077, 124078,]
+ [ 124077, 124078, 124422, 124423, 124427, 124428,]
 
 # parameters for the first pass of the pipeline (restart=1 is automatically enforced here)
 pars1 = {}
