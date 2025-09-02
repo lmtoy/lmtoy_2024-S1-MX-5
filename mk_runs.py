@@ -23,12 +23,12 @@ pars1["NGC1333_center_south"] = "vlsr=-1 dv=10 dw=20 pix_list=-13,15"
 # parameters for the (optional) second pass of the pipeline (e.g. for bank=0)
 pars2 = {}
 
-pars2["NGC1333_center_south"] = "pix_list=-13"
+pars2["NGC1333_center_south"] = "bank=0 pix_list=-13"
 
 # parameters for the (optional) third pass of the pipeline (usually for bank=1)
 pars3 = {}
 
-pars3["NGC1333_center_south"] = "pix_list=-4,13,15"
+pars3["NGC1333_center_south"] = "bank=1 pix_list=-4,13,15"
 
 # Found 1 source(s) for 2024-S1-MX-5
 
